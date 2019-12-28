@@ -2,8 +2,8 @@
 
 This is good for provisioning and automation, it will improve scalability, consistency and reliability in the IT environment
 
-- You need to configure the vagrantfile to make sure it reads that it is going to get its provisioning from ansible 
-
+- You need to configure the vagrantfile to make sure it reads that it is going to get its provisioning from ansible
+    - check the vagrant file in this project 
 ## How to install ansible with Ubuntu
   - sudo apt-get install software-properties-common
   - sudo add-apt-repository ppa:ansible/ansible
