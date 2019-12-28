@@ -2,6 +2,8 @@
 
 This is good for provisioning and automation, it will improve scalability, consistency and reliability in the IT environment
 
+- You need to configure the vagrantfile to make sure it reads that it is going to get its provisioning from ansible 
+
 ## How to install ansible with Ubuntu
   - sudo apt-get install software-properties-common
   - sudo add-apt-repository ppa:ansible/ansible
@@ -37,4 +39,4 @@ This is good for provisioning and automation, it will improve scalability, consi
 2. check to see that ansible has been installed
 3. Go to environment and then run the playbook using **ansible-playbook <name of playbook>** this should be a .yml file
 4. cd into the app and then run **npm start**
-5. Check to see if the website loads 
+5. Check to see if the website loads
